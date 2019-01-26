@@ -63,6 +63,6 @@ After you have all archives (OARs and IARs) just follow these steps:
 
 * Shutdown every simulator
 * Shutdown every server process (robust, inventory, money...)
-* Execute this command: php cleaner.php avatarfirst_avatarlast.iar secondavatar_secondlast.iar region1.oar region2.oar region3.oar.....
+* Execute this command: ```php cleaner.php avatarfirst_avatarlast.iar secondavatar_secondlast.iar region1.oar region2.oar region3.oar.....```
 
 This script can take a while depending on the size of your assets and db.
