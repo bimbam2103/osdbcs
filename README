@@ -1,4 +1,4 @@
-## OpenSIM Database Cleanup Script ##
+## OpenSIM Database Cleanup Script
 
 ATTENTION: This script does only work if you have access to ALL Region-OARs and Avatar-IARs. If you cannot access ALL OARs and IARs DO NOT RUN THIS SCRIPT !!!!
 
@@ -7,13 +7,13 @@ As example: You upload an entire XML-File with nearly 2000 Textures. So you have
 
 ANOTHER ATTENTION: MAKE BACKUPS. Before you run this script ALLWAYS MAKE BACKUPS.
 
-### Tested environment ###
+### Tested environment
 
 * OpenSIM 0.9.0.1
 * PHP 7.3
 * Debian Linux 9 (Stretch)
 
-### Required minimum Environment ###
+### Required minimum Environment
 
 * OpenSim 0.9.x
 * PHP 7
@@ -21,7 +21,7 @@ ANOTHER ATTENTION: MAKE BACKUPS. Before you run this script ALLWAYS MAKE BACKUPS
 * Debian Linux 7
 * gzip
 
-### Prerequisites ###
+### Prerequisites
 
 Edit the cleaner.php and edit the first lines to match your system and needs.
 
@@ -31,7 +31,7 @@ It is recommended that you set the optimize switch to ```true``` but you should 
 
 If you want to optimize your db you NEED enough free hard disk space to do this. The size of needed hard disk space is the size of the DB because MySQL will copy all tables to a new database and deletes the old one. In this way it removes **free bytes**.
 
-### Usage ###
+### Usage
 
 First you need to make the OARs and IARs in your servers. For the OARs to the following:
 
