@@ -12,12 +12,14 @@ ANOTHER ATTENTION: MAKE BACKUPS. Before you run this script ALLWAYS MAKE BACKUPS
 * OpenSIM 0.9.0.1
 * PHP 7.3
 * Debian Linux 9 (Stretch)
+* MySQL 5.7.24
 
 ### Required minimum Environment
 
 * OpenSim 0.9.x
 * PHP 7
 * MySQLi-Extension for PHP
+* MySQL 5.6
 * Debian Linux 7
 * gzip
 
