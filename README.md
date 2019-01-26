@@ -25,7 +25,7 @@ ANOTHER ATTENTION: MAKE BACKUPS. Before you run this script ALLWAYS MAKE BACKUPS
 
 Edit the cleaner.php and edit the first lines to match your system and needs.
 
-** Important: **
+**Important:**
 
 It is recommended that you set the optimize switch to ```true``` but you should pay attention to this part:
 
