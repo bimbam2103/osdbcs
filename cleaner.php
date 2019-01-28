@@ -29,10 +29,6 @@ if($link) {
 	return 1;
     }
     array_shift($argv);
-    if(!file_exists("users.txt")) {
-	print "ERROR: User file does not exist. Restore will not be possible. Aborting...\n";
-	return 1;
-    }
     $liveAssets = array();
     $assets = array("texture" => 0, "sound" => 1, "clothing" => 5, "script" => 10, "bodypart" => 13, "animation" => 20);
     $scriptReferences = array();
